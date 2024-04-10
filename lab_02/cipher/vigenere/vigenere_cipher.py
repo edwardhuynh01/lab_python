@@ -18,7 +18,7 @@ class VigenereCipher:
                 encrypted_text += char
         return encrypted_text
     
-    def vigenere_decrypt(self, encrypted_text, key):
+    def vinegere_decrypt(self, encrypted_text, key):
         decrypted_text = ""
         key_index = 0
         for char in encrypted_text:
